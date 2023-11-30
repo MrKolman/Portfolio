@@ -76,3 +76,27 @@ li {
 .portfolio-item:active {
   background-color: #DDDDDD;
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.distance {
+  padding: 2rem;
+}
+
+.easter-egg:hover {
+  color: purple;
+}
+
+.easter-egg:active {
+  color: black;
+}
+
+img {
+  padding: 1rem;
+  right: 2rem;
+  height: 50%;
+  width: 50%;
+}

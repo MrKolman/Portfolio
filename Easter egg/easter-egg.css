@@ -1,0 +1,28 @@
+header {
+    background-image: linear-gradient(to right, #2f4f4f, #5F7B7B, #5F7B7B);
+}
+
+img {
+    height: 5%;
+    width: 10%;
+}
+
+.contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 2rem;
+}
+
+a {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 2rem;
+}
