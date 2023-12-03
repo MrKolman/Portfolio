@@ -1,10 +1,19 @@
+body {
+    margin: 0;
+}
+
 header {
     background-image: linear-gradient(to right, #2f4f4f, #5F7B7B, #5F7B7B);
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
 }
 
 img {
-    height: 5%;
-    width: 10%;
+    height: 30rem;
+    width: 30rem;
+    padding: 2rem;
 }
 
 .contents {
@@ -17,12 +26,27 @@ h1 {
     display: flex;
     justify-content: left;
     align-items: center;
-    padding: 2rem;
+    padding: 1rem;
 }
 
-a {
+ol {
     display: flex;
     justify-content: right;
     align-items: center;
-    padding: 2rem;
+    list-style: none;
 }
+
+a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a:hover {
+    color: purple;
+}
+
+a:active {
+    color: black;
+}
+
