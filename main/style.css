@@ -1,3 +1,8 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 15rem;
+}
+
 body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin: 0;
@@ -66,7 +71,7 @@ li {
   background-color: #d3d3d3;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  box-shadow: 0 4px 6px rgb(171, 171, 171);
+  box-shadow: 0 4px 6px rgb(199, 199, 199);
 }
 
 .portfolio-item:hover {
@@ -95,8 +100,16 @@ footer {
 }
 
 img {
+  position: absolute;
+  right: 2rem;
   padding: 1rem;
   right: 2rem;
-  height: 50%;
-  width: 50%;
+  width: 20%;
+  border-radius: 25px;
+}
+
+.img_move {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
