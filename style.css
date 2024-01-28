@@ -22,6 +22,16 @@ header {
   z-index: 999;
 }
 
+.skip-link {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+}
+
+.skip-link:focus {
+  translate: 0;
+}
+
 main {
   width: 70%;
   margin-inline: auto;
